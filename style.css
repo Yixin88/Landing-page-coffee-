@@ -1,0 +1,165 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+h1, h2 {
+  font-family: 'Lato', sans-serif;
+}
+
+p, a {
+  font-family: 'Open Sans', sans-serif;
+}
+.container {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Add styles here */
+
+:root {
+  --lightPink: #FF5678;
+  --offWhite: #F6F2EF;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 80px;
+  align-items: center;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 26px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+}
+
+footer {
+  margin-top: 100px;
+  width: 100%;
+  height: 130px;
+  background-color: #1D1C1C;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.headerLink {
+  text-decoration: none;
+  color: #1D1C1C;
+}
+
+#loginBtn {
+  padding: 8px 24px;
+  background-color: #1D1C1C;
+  border-radius: 40px;
+  color: #FFFFFF;
+  border: none;
+}
+
+#loginBtn:hover {
+  background-color: var(--lightPink);
+}
+
+.hero {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.search {
+  background-color: var(--offWhite);
+  padding: 20px;
+  min-width: 300px;
+  border-radius: 16px;
+  border: 1px var(--offWhite) solid;
+}
+
+.search:hover {
+  border: 1px var(--lightPink) solid;
+}
+
+#submitBtn {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  border: none;
+  background-color: var(--lightPink);
+  margin-left: 12px;
+}
+
+#submitBtn:hover {
+  box-shadow: rgba(0,0,0,0.8) 0px 0 10px;
+}
+
+#arrowImg {
+  position: relative;
+  top: 2px;
+}
+
+#laRambla {
+  color: var(--lightPink);
+}
+
+.specialOffer {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.offerContainer {
+  background-color: var(--offWhite);
+  border-radius: 16px;
+  padding: 20px 60px;
+}
+
+.offerBanner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justtify-content: center;
+}
+
+.buyBtn {
+  background-color: var(--lightPink);
+  border: none;
+  border-radius: 8px;
+  color: #FFFFFF;
+  padding: 12px 60px;
+}
+
+.buyBtn:hover {
+  background-color: #1D1C1C;
+  color: #FFFFFF;
+  box-shadow: rgba(0,0,0,0.8) 0px 0 10px;
+}
+
+.footerIcon {
+  display: flex;
+  gap: 15px;
+}
+
+.icon {
+  filter: invert(100%);
+}
+
