@@ -68,6 +68,11 @@ footer {
   color: #1D1C1C;
 }
 
+.headerLink:hover {
+    -webkit-text-stroke: 1px;
+    color: var(--lightPink);
+}
+
 #loginBtn {
   padding: 8px 24px;
   background-color: #1D1C1C;
@@ -138,7 +143,6 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justtify-content: center;
 }
 
 .buyBtn {
