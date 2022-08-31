@@ -131,6 +131,7 @@ footer {
   background-color: var(--offWhite);
   border-radius: 16px;
   padding: 20px 60px;
+  position: relative;
 }
 
 .offerBanner {
@@ -163,3 +164,90 @@ footer {
   filter: invert(100%);
 }
 
+.selectionBanner {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.selectionBanner > div {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.dropDown {
+  background-color: var(--offWhite);
+  border-radius: 16px;
+  border-right: 3px solid var(--offWhite);
+  padding: 5px 15px;
+}
+
+.dropdownMenu {
+  background-color: var(--offWhite);
+  border: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+}
+
+.beanDetail {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.origin {
+  text-align: left;
+  width: 100%;
+  font-size: 0.8rem;
+  position: relative;
+  bottom: 10px;
+}
+
+.beanText {
+  font-weight: 100;
+  -webkit-text-stroke: 1px;
+  font-size: 0.8rem;
+}
+
+.available {
+  padding: 7px 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  -webkit-text-stroke: 1px;
+  border-radius: 10px;
+  letter-spacing: 0.1em;
+  background-color: #149770;
+  color: #FFFFFF;
+  position: absolute;
+  left: 230px;
+}
+
+.selection {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 100px;
+  grid-row-gap: 100px;
+  margin-bottom: 50px;
+}
+
+.selectionContainer {
+  background-color: var(--offWhite);
+  border-radius: 16px;
+  padding: 20px 25px;
+  position: relative;
+  min-width: 250px;
+}
+
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+  .specialOffer {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  
+}
