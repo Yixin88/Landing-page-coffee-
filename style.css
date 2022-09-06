@@ -1,3 +1,4 @@
+/* use the css of last week's - The Bean Machine - project here */ 
 html,
 body {
   margin: 0;
@@ -83,6 +84,7 @@ footer {
 
 #loginBtn:hover {
   background-color: var(--lightPink);
+  cursor: pointer;
 }
 
 .hero {
@@ -230,10 +232,11 @@ footer {
 
 .selection {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, 300px);
   grid-column-gap: 100px;
   grid-row-gap: 100px;
   margin-bottom: 50px;
+  justify-content: center;
 }
 
 .selectionContainer {
