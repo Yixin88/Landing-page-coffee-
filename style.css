@@ -131,7 +131,8 @@ footer {
 .specialOffer {
   display: flex;
   justify-content: space-between;
-  gap: 20px;
+  gap: 40px;
+  flex-wrap: wrap;
 }
 
 .offerContainer {
@@ -139,6 +140,7 @@ footer {
   border-radius: 16px;
   padding: 20px 60px;
   position: relative;
+  margin: auto;
 }
 
 .offerBanner {
